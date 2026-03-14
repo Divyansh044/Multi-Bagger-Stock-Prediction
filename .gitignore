@@ -1,0 +1,195 @@
+# ============================================================
+#  Multibagger Stock Prediction — .gitignore
+# ============================================================
+
+# ----------------------------------------------------------
+# Python
+# ----------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+MANIFEST
+
+# Unit test / coverage
+.tox/
+.nox/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+htmlcov/
+.pytest_cache/
+.hypothesis/
+nosetests.xml
+
+# Type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyright/
+
+# ----------------------------------------------------------
+# Virtual Environments
+# ----------------------------------------------------------
+venv/
+.venv/
+env/
+.env/
+ENV/
+env.bak/
+venv.bak/
+Lib/
+Scripts/
+pyvenv.cfg
+
+# ----------------------------------------------------------
+# Environment & Secrets
+# ----------------------------------------------------------
+.env
+.env.*
+!.env.example
+*.env
+secrets.py
+secrets.json
+config_local.py
+api_keys.txt
+credentials.json
+
+# ----------------------------------------------------------
+# Data Files  (raw / processed data — often large or private)
+# ----------------------------------------------------------
+data/raw/
+data/processed/
+data/predictions/
+*.csv
+*.json
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.xlsx
+*.xls
+*.db
+*.sqlite
+*.sqlite3
+
+# ----------------------------------------------------------
+# Trained Models & Checkpoints  (usually very large)
+# ----------------------------------------------------------
+models/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.pb
+*.joblib
+*.model
+*.weights
+
+# ----------------------------------------------------------
+# Jupyter Notebooks — outputs & checkpoints
+# ----------------------------------------------------------
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+*.ipynb     # remove this line if you want to track notebooks
+
+# ----------------------------------------------------------
+# Logs & Temporary Files
+# ----------------------------------------------------------
+logs/
+*.log
+*.log.*
+tmp/
+temp/
+.tmp/
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+
+# ----------------------------------------------------------
+# IDE & Editor
+# ----------------------------------------------------------
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm / JetBrains
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Vim / Emacs
+*.vim
+.emacs.desktop
+.emacs.desktop.lock
+*#
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ----------------------------------------------------------
+# OS-Generated Files
+# ----------------------------------------------------------
+# Windows
+Thumbs.db
+Thumbs.db:encdata
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+# ----------------------------------------------------------
+# Profiling & Benchmarks
+# ----------------------------------------------------------
+*.prof
+*.lprof
+
+# ----------------------------------------------------------
+# Documentation builds
+# ----------------------------------------------------------
+docs/_build/
+site/
+
+# ----------------------------------------------------------
+# Miscellaneous
+# ----------------------------------------------------------
+WHAT_WE_BUILT.md
+*.pyc
+*.zip
+*.tar.gz
+*.rar
+*.7z
